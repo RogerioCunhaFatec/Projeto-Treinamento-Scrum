@@ -12,8 +12,9 @@
   <!-- HTML dedicado seleção de questões. -->
 
   <div class="quizz">
-      <legend style="border: 2px;"> Selecione uma Pergunta!</legend>
-      
+      <br>
+      <legend style="border: 2px; font-weight: bold; font-size: 20px;"> Selecione uma Pergunta!</legend>
+      <br>
       <button class="botao_1" onclick="carregar(pergunta01)">1</button>
       <button class="botao_1" onclick="carregar(pergunta02)">2</button>
       <button class="botao_1" onclick="carregar(pergunta03)">3</button>
@@ -26,13 +27,14 @@
       <button class="botao_1" onclick="carregar(pergunta10)">10</button>
 
     </div>
-
+    <br>
     <!-- Trecho dedicado a pergunta e respostas. -->
 
     <div class="quizz">
       <fieldset>
       <legend>Perguntas e Respostas</legend>
       <h1 id="pergunta_"></h1>
+      <br>
       <ul style="list-style-type: none; padding:0px">
         <li><button class="lista" onclick="answer(1)" value=""></button></li>
         <li><button class="lista" onclick="answer(2)" value=""></button></li>
@@ -40,7 +42,7 @@
         <li><button class="lista" onclick="answer(4)" value=""></button></li>
       </ul>
 
-      <button id="botao_2" onclick="answerTest()">Testa Resposta</button>
+      <button id="botao_2" onclick="answerTest()">Finalizar</button>
     </fieldset>
     </div>
 

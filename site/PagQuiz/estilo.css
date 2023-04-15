@@ -1,3 +1,7 @@
+*{
+    font-family: verdana;
+}
+
 #imagem_diploma{
 
     display: none;
@@ -6,7 +10,6 @@
 
 .quizz{
 
-    font-family: verdana;
     display: flex;
     justify-content: first baseline;
     display: block;
@@ -17,7 +20,6 @@
     
     height: 40px;
     width: 140px;
-    font-family: verdana;
     font-size: 100%;
     background-color: white;
     color:#b20000;
@@ -31,7 +33,7 @@
 
 .botao_1:hover {
 
-    border: 3px solid #FF1919
+    border: 3px solid #b20000;
 
 }
 
@@ -39,7 +41,6 @@
 
     height: 40px;
     width: 140px;
-    font-family: verdana;
     font-size: 100%;
     background-color: white;
     color:#b20000;
@@ -58,21 +59,11 @@
 }
   
 
-#pergunta_{
-
-    font-family: verdana;
-
-}
-
 .lista{
 
-    
-    font-family: verdana;
-    height: 40px;
+    height: 60px;
     width: 100%;
-    font-family: verdana;
     font-size: 100%;
-    background-color: blue;
     color:#b20000;
     border: 1px solid black;
     border-radius: 5px;
@@ -85,12 +76,11 @@
 
 .lista:hover{
 
-    border: 3px solid #FF1919 ;
+    border: 3px solid #b20000;
 }
 
 .diploma{
 
-    font-family: verdana;
     display: none;
     margin: auto;
 
@@ -106,7 +96,14 @@
 
 .pre_visual{
 
-    font-family: verdana;
     display: none;
 
+}
+
+#pergunta_{
+
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    height: 40px;
 }
